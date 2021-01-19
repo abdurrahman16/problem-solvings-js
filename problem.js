@@ -78,16 +78,30 @@
 // }
 // console.log(sheet2);
 
+// let speech ='I    love my Mom';
 
-let speech ='I    love my Mom';
+// let count=0;
+// for (let i=0; i<speech.length; i++){
+//     let character= speech[i];
+//     if(character ==" " && speech[i-1] !=" "){
+//         count++;
 
-let count=0;
-for (let i=0; i<speech.length; i++){
-    let character= speech[i];
-    if(character ==" " && speech[i-1] !=" "){
-        count++;
+//     }
+// }
+// count++
+// console.log(count);
 
-    }
-}
-count++
-console.log(count);
+// reverse string using function
+
+
+// function reverString (str){
+//     let reverse= "";
+//     for (let i=0; i<str.length; i++)
+//     {
+//         let char = str[i];
+//         reverse = char + reverse;
+//     }
+//     return reverse;
+// }
+// let speech ='I    love my Mom';
+// console.log(reverString(speech));
