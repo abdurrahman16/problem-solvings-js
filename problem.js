@@ -40,14 +40,26 @@
 // let max= Math.max(a,b,c);
 // console.log(max);
 
-let marks=[33,55,66,77,88,23,90];
-let max =marks[0];
+// let marks=[33,55,66,77,88,23,90];
+// let max =marks[0];
 
-for (let i=0; i<marks.length; i++){
-    let check= marks[i];
-    if(check>max)
-    {
-        max=check;
+// for (let i=0; i<marks.length; i++){
+//     let check= marks[i];
+//     if(check>max)
+//     {
+//         max=check;
+//     }
+// }
+// console.log(max);
+
+
+function sumofaraay(marks){
+    let sum=0;
+    for (let i=0; i<marks.length; i++){
+        let getNumb= marks[i];
+        sum= sum+getNumb;
     }
+   return sum;
 }
-console.log(max);
+let marks=[1,2,3,4,6];
+console.log(sumofaraay(marks));
