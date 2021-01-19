@@ -53,13 +53,25 @@
 // console.log(max);
 
 
-function sumofaraay(marks){
-    let sum=0;
-    for (let i=0; i<marks.length; i++){
-        let getNumb= marks[i];
-        sum= sum+getNumb;
+// function sumofaraay(marks){
+//     let sum=0;
+//     for (let i=0; i<marks.length; i++){
+//         let getNumb= marks[i];
+//         sum= sum+getNumb;
+//     }
+//    return sum;
+// }
+// let marks=[1,2,3,4,6];
+// console.log(sumofaraay(marks));
+
+let sheet1 =[33,33,55,66,77,88,88,23,90];
+let sheet2 = [];
+for (i=0; i<sheet1.length; i++){
+    let item= sheet1[i];
+    let index= sheet2.indexOf(item);
+    if( index==-1)
+    {
+        sheet2.push(item);
     }
-   return sum;
 }
-let marks=[1,2,3,4,6];
-console.log(sumofaraay(marks));
+console.log(sheet2);
