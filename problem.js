@@ -64,14 +64,30 @@
 // let marks=[1,2,3,4,6];
 // console.log(sumofaraay(marks));
 
-let sheet1 =[33,33,55,66,77,88,88,23,90];
-let sheet2 = [];
-for (i=0; i<sheet1.length; i++){
-    let item= sheet1[i];
-    let index= sheet2.indexOf(item);
-    if( index==-1)
-    {
-        sheet2.push(item);
+//unique array
+
+// let sheet1 =[33,33,55,66,77,88,88,23,90];
+// let sheet2 = [];
+// for (i=0; i<sheet1.length; i++){
+//     let item= sheet1[i];
+//     let index= sheet2.indexOf(item);
+//     if( index==-1)
+//     {
+//         sheet2.push(item);
+//     }
+// }
+// console.log(sheet2);
+
+
+let speech ='I    love my Mom';
+
+let count=0;
+for (let i=0; i<speech.length; i++){
+    let character= speech[i];
+    if(character ==" " && speech[i-1] !=" "){
+        count++;
+
     }
 }
-console.log(sheet2);
+count++
+console.log(count);
